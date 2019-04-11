@@ -3,7 +3,7 @@ Author: Josh Musser
 
 == Learning Objectives
 
-After completing this tutorial, readers should be competant with the process of initializing a Pi motherboard. Rasberry Pi motherboards are very small form factors that are capable of running multiple types of Distrubutions and are perfect for a diverse array of projects.
+After completing this tutorial, readers should be competent with the process of initializing a Pi motherboard. Rasberry Pi motherboards are very small form factors that are capable of running multiple types of Distrubutions and are perfect for a diverse array of projects.
 
 == Prerequisites
 
@@ -45,6 +45,7 @@ Now it is critical that you change the password from the default one. This can d
 ```
 sudo passwd
 ```
+
 Then type your new password, you will be asked to confrim the password by entering it twice.
 
 Now we need to update and upgrade Raspbian by running the following commands.
@@ -58,7 +59,7 @@ sudo apt-get update
 sudo apt-get upgrade
 ```
 
-Congratulations! Your Rasberry Pi is 100% initailized and ready to serve whatever porpose you command. Enjoy!
+Congratulations! Your Rasberry Pi is 100% initailized and ready to serve whatever purpose you command. Enjoy!
 
 == Reflection
 
