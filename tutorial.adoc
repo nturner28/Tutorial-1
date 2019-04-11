@@ -1,1 +1,69 @@
+= Setting Up Rasberry Pi
+Author: Josh Musser
+
+== Learning Objectives
+
+After completing this tutorial, readers should be competant with the process of initializing a Pi motherboard. Rasberry Pi motherboards are very small form factors that are capable of running multiple types of Distrubutions and are perfect for a diverse array of projects.
+
+== Prerequisites
+
+* Rasberry Pi
+* Micro SD card (8GB minumum)
+* USB Keyboard/Mouse
+* HDMI cord
+* Monitor with HDMI input
+* Laptop with internet connection
+
+== Install NOOBS on SD
+
+To begin, we need to install NOOBS on our SD card. Noobs is an easy Raspian installer. Alternativley, you can purchase a preloaded SD card with Rasbian already installed. Rasbian is the standard OS for our Rasberry Pi
+
+1. Format the SD card, and format to FAT.
+2. Download and extract NOOBS zip file.
+3. Copy the contents of the folder to the SD card, NOT the folder itself.
+4. Place the SD card in the card reader slot of the Pi.
+
+== Plugin Hardware
+
+Now we need to connect all of our peripherals before finally powering up the Pi.
+
+1. Plug in ethernet cord
+2. Connect HDMI cord from monitor to the HDMI port of the PI, and power on the monitor to correct input setting.
+3. Plug in mouse and keyboard
+4. Finally, we can connect the power supply to the board.
+
+== Initial Startup
+
+Once the Pi starts up for the first time, you will need to initialize from the boot screen.
+
+1. Select the Raspbian, and select Confirm when promted. Raspbian will install, and will reboot when finished
+2. After the reboot, open the terminal  by clicking on the icon in the top toolbar.
+3. You will need login as Pi, with the default password of rasberry.
+
+Now it is critical that you change the password from the default one. This can done by entering the following command.
+
+```
+sudo passwd
+```
+Then type your new password, you will be asked to confrim the password by entering it twice.
+
+Now we need to update and upgrade Raspbian by running the following commands.
+
+
+```
+sudo apt-get update
+```
+
+```
+sudo apt-get upgrade
+```
+
+Congratulations! Your Rasberry Pi is 100% initailized and ready to serve whatever porpose you command. Enjoy!
+
+== Reflection
+
+At this point should be able to boot up the Pi successfully. Some questions to consider at this point are as follows.
+
+* What are other distributions beside Rasbian that you could explore? 
+* And what are the ways that you could customize the basic setup?
 
